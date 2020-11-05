@@ -1,0 +1,12 @@
+name: Hiddenseek
+version: 1.0-SNAPSHOT
+main: me.eleganairy.hiddenseek.Main
+api-version: 1.16
+authors: [ Eleganairy ]
+description: Test plugin for hide and seek
+commands:
+  teamsheep:
+    description: Spawning a Green or Blue sheep to select a team
+    aliases: teamselector
+
+
