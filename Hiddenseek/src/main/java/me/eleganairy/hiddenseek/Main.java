@@ -2,7 +2,6 @@ package me.eleganairy.hiddenseek;
 
 import me.eleganairy.hiddenseek.commands.SpawnSheep;
 import me.eleganairy.hiddenseek.commands.TeamSelect;
-import org.bukkit.command.TabCompleter;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -16,7 +15,7 @@ public class Main extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new TeamSelect(), this);
 
         //Commands
-        getCommand("teamsheep").setExecutor(new SpawnSheep());
+        getCommand("teamselector").setExecutor(new SpawnSheep());
 
     }
 

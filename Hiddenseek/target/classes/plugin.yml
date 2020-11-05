@@ -5,8 +5,7 @@ api-version: 1.16
 authors: [ Eleganairy ]
 description: Test plugin for hide and seek
 commands:
-  teamsheep:
+  teamselector:
     description: Spawning a Green or Blue sheep to select a team
-    aliases: teamselector
 
 
